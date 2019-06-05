@@ -46,5 +46,5 @@ def send_cat():
 
 	client.chat_postMessage(channel=channel, blocks=message)
 
-for req in range(1, number_of_cats): 
+for req in range(1, int(number_of_cats)): 
 	send_cat()
